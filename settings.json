@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "boolean", // Alterado para mysql_native_password
+                "enableSsl": false                       // Corrigido para boolean
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "LojaFlores",
+            "database": "LojaFlores",
+            "username": "root",
+            "password": ""
+        }
+    ],
+    "php.validate.executablePath": ""
+}
